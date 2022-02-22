@@ -1,0 +1,190 @@
+:root {
+    --background-color: #d4cfe7;
+    --primary-color: #b6e1f6;
+    --header-color: #001b64;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--header-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 30px;
+    top: 0;
+}
+
+
+header a {
+    text-decoration: none;
+}
+
+header h1{
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+   padding: 10px 40px;
+   font-size: 25px;
+   font-weight: lighter;
+   text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    /* padding: 40px 35px; */
+}
+
+footer h2{
+    margin: 100px 0 0 0;
+    padding: 0 20px 0 0;
+    border-right: 2px solid var(--header-color);
+}
+
+footer div {line-height: 1.5;
+
+}
+
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+footer ul li a{
+    color: var(--header-color);
+    padding: 10px 40px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: lighter;
+    border-bottom: 1px solid var(--header-color);
+}
+
+
+section {
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-me{
+    padding: 60px;
+}
+
+.work {
+    padding: 60px;
+}
+
+.run-buddy {
+    padding: 60px;
+    background-image: url("../images/run-buddy.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+    width: 80%;
+    height: 80%;
+}
+
+.transfermarkt {   
+    
+    padding: 60px;
+    background-image: url("../images/soccer.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+.led {   
+    
+    padding: 60px;
+    background-image: url("../images/led.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+.robot {   
+    
+    padding: 60px;
+    background-image: url("../images/robot.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+.spotify {   
+    
+    padding: 60px;
+    background-image: url("../images/spotify.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+.small-projects {
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
